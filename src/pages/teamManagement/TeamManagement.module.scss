@@ -1,0 +1,22 @@
+.tabContainer {
+  div {
+    position: relative;
+    top: 9px;
+    padding-bottom: 5px;
+    z-index: 1;
+    min-width: 95px;
+  }
+}
+.teamTableCont {
+  position: relative !important;
+  top: -30px !important;
+  :global {
+    .ant-table-measure-row {
+      display: none;
+    }
+    .ant-table-thead > tr > th {
+      display: none;
+      border-bottom: none !important;
+    }
+  }
+}

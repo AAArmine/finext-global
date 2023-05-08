@@ -1,0 +1,25 @@
+.container {
+  width: 296px;
+  text-align: left;
+  & > label {
+    font-weight: 700;
+    font-size: 14px;
+  }
+}
+.greenBorder {
+  [class*='-control'] {
+    &:hover,
+    &:focus {
+      border-color: #16c37b !important;
+      [class*='-Svg'] {
+        fill: #16c37b;
+      }
+      [class*='-singleValue'] {
+        color: #16c37b !important;
+      }
+      [class*='-placeholder'] {
+        color: #16c37b !important;
+      }
+    }
+  }
+}

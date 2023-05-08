@@ -1,0 +1,30 @@
+.registerFooter {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 620px;
+  bottom: 0px;
+}
+.tableComponent {
+  table {
+    tr {
+      td {
+        border-bottom: 1px solid #c6c4d4;
+        padding: 15px 0;
+      }
+      &:last-child {
+        td {
+          border: none;
+        }
+      }
+    }
+  }
+}
+
+.modalContainer {
+  :global {
+    .ant-modal-header {
+      padding: 0 !important;
+    }
+  }
+}

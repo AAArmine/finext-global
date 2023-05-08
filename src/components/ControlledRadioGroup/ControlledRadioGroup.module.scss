@@ -1,0 +1,22 @@
+:global {
+  .ant-radio {
+    height: 19px;
+    width: 19px;
+  }
+  .ant-radio-checked .ant-radio-inner {
+    border-color: #16c37b;
+    box-shadow: none !important;
+    height: 19px;
+    width: 19px;
+  }
+  .ant-radio-checked .ant-radio-inner:after {
+    background-color: #16c37b;
+    height: 23px;
+    width: 23px;
+    left: 5px;
+    top: 5px;
+  }
+  .ant-radio:hover .ant-radio-inner {
+    border-color: #16c37b;
+  }
+}

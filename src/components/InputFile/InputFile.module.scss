@@ -1,0 +1,64 @@
+.uploadBtn {
+  width: 296px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 14px;
+  height: 36px;
+  padding: 5px 0 0 10px;
+  border: 1px solid #c6c4d4;
+  border-radius: 4px;
+  &:focus,
+  &:hover,
+  &:active {
+    border: 1px solid #c6c4d4;
+  }
+}
+:global {
+  .ant-upload-list {
+    height: 0;
+    .ant-upload-list-item-card-actions-btn:focus,
+    .ant-upload-list-item-card-actions.picture
+      .ant-upload-list-item-card-actions-btn {
+      background-color: white;
+    }
+    .ant-upload-span {
+      background-color: white !important;
+    }
+  }
+  .ant-upload-list-picture-card .ant-upload-list-item,
+  .ant-upload-list-picture .ant-upload-list-item {
+    height: 36px;
+    width: 296px;
+    position: relative;
+    bottom: 43px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+  }
+  .ant-upload-list-item-info {
+    .ant-upload-list-item-thumbnail {
+      display: none;
+    }
+    .ant-upload-list-item-name {
+      text-align: left;
+      padding: 0;
+    }
+  }
+  .anticon-delete {
+    svg {
+      display: none;
+    }
+  }
+  .anticon-delete::after {
+    content: 'x';
+    color: white;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 50%;
+    line-height: 16px;
+    background-color: #e76868;
+  }
+}

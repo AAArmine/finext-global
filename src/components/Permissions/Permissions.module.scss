@@ -1,0 +1,51 @@
+.permissionCont {
+  background: #fbfdfd;
+  box-shadow: 0px 7px 11px rgba(35, 109, 79, 0.12);
+  border-radius: 20px;
+  width: 32%;
+  padding: 1rem 1rem 3rem 1rem;
+  margin-top: 2rem;
+  max-width: 30rem;
+  &.inActive {
+    opacity: 0.3;
+    pointer-events: none;
+  }
+  @media only screen and (max-width: '1200px') {
+    width: 100%;
+    margin: auto;
+    margin-top: 3rem;
+  }
+  .checkbox {
+    position: absolute;
+    opacity: 0;
+    & + label {
+      position: relative;
+      cursor: pointer;
+      padding: 0;
+    }
+    & + label:before {
+      content: '';
+      display: inline-block;
+      vertical-align: text-top;
+      width: 16px;
+      height: 16px;
+      border: 1px solid #01e285;
+      border-radius: 2px;
+    }
+    &:checked + label:before {
+      background: linear-gradient(317.83deg, #01e285 -13.04%, #09cead 127.04%);
+    }
+    &:checked + label:after {
+      content: '';
+      position: absolute;
+      left: 3px;
+      top: 7px;
+      background: white;
+      width: 2px;
+      height: 2px;
+      box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white,
+        4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white;
+      transform: rotate(45deg);
+    }
+  }
+}

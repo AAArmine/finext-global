@@ -1,0 +1,38 @@
+.walletCont {
+  .inputCont {
+    width: 296px;
+  }
+  .mySelect__value-container {
+    height: 35px;
+  }
+  .flexItem {
+    margin-right: 3%;
+    @media only screen and (max-width: '1024px') {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+}
+:global {
+  .ant-btn {
+    box-shadow: none !important;
+  }
+  .ant-modal {
+    .ant-modal-content {
+      border-radius: 0.5rem !important;
+      padding: 1rem !important;
+    }
+    .ant-modal-header {
+      border-radius: 0.5rem !important;
+      border-bottom: none !important;
+      padding-top: 2rem !important;
+    }
+    .ant-modal-footer {
+      padding: 1rem !important;
+      text-align: none !important;
+      border-top: none !important;
+      display: flex !important;
+      justify-content: space-between !important;
+    }
+  }
+}

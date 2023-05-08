@@ -1,0 +1,262 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('moon/icomoon.eot?q26g1');
+  src: url('moon/icomoon.eot?q26g1#iefix') format('embedded-opentype'),
+    url('moon/icomoon.ttf?q26g1') format('truetype'),
+    url('moon/icomoon.woff?q26g1') format('woff'),
+    url('moon/icomoon.svg?q26g1#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-calendar:before {
+  content: '\e900';
+}
+.icon-square:before {
+  content: '\e901';
+}
+.icon-chart:before {
+  content: '\e902';
+}
+.icon-download:before {
+  content: '\e903';
+}
+.icon-edit:before {
+  content: '\e904';
+}
+.icon-european-union .path1:before {
+  content: '\e905';
+  color: rgb(0, 82, 180);
+}
+.icon-european-union .path2:before {
+  content: '\e906';
+  margin-left: -1em;
+  color: rgb(255, 218, 68);
+}
+.icon-european-union .path3:before {
+  content: '\e907';
+  margin-left: -1em;
+  color: rgb(255, 218, 68);
+}
+.icon-european-union .path4:before {
+  content: '\e908';
+  margin-left: -1em;
+  color: rgb(255, 218, 68);
+}
+.icon-european-union .path5:before {
+  content: '\e909';
+  margin-left: -1em;
+  color: rgb(255, 218, 68);
+}
+.icon-european-union .path6:before {
+  content: '\e90a';
+  margin-left: -1em;
+  color: rgb(255, 218, 68);
+}
+.icon-european-union .path7:before {
+  content: '\e90b';
+  margin-left: -1em;
+  color: rgb(255, 218, 68);
+}
+.icon-european-union .path8:before {
+  content: '\e90c';
+  margin-left: -1em;
+  color: rgb(255, 218, 68);
+}
+.icon-european-union .path9:before {
+  content: '\e90d';
+  margin-left: -1em;
+  color: rgb(255, 218, 68);
+}
+.icon-filter:before {
+  content: '\e90e';
+  color: #fff;
+}
+.icon-upload:before {
+  content: '\e90f';
+}
+.icon-plus:before {
+  content: '\e910';
+}
+.icon-info:before {
+  content: '\e912';
+}
+.icon-awaiting-approvals:before {
+  content: '\e915';
+}
+.icon-graph:before {
+  content: '\e916';
+}
+.icon-money:before {
+  content: '\e917';
+}
+.icon-burger:before {
+  content: '\e918';
+}
+.icon-close:before {
+  content: '\e92a';
+}
+.icon-beneficiary-list:before {
+  content: '\e91d';
+}
+.icon-general-info:before {
+  content: '\e91e';
+}
+.icon-arrow-down:before {
+  content: '\e91f';
+}
+.icon-arrow-up:before {
+  content: '\e920';
+}
+.icon-export:before {
+  content: '\e921';
+}
+.icon-lock:before {
+  content: '\e922';
+}
+.icon-headphone:before {
+  content: '\e923';
+  color: #231d56;
+}
+.icon-dashboard:before {
+  content: '\e924';
+  color: #ff7f5c;
+}
+.icon-transaction:before {
+  content: '\e914';
+  color: #ff7f5c;
+}
+.icon-reports:before {
+  content: '\e930';
+}
+.icon-gallery:before {
+  content: '\e913';
+}
+.icon-idea-1:before {
+  content: '\e932';
+}
+.icon-info-square:before {
+  content: '\e933';
+}
+.icon-info-square-filled:before {
+  content: '\e91a';
+}
+.icon-close-circle:before {
+  content: '\e937';
+}
+.icon-close-circle-filled:before {
+  content: '\e925';
+}
+.icon-approved:before {
+  content: '\e926';
+}
+.icon-location:before {
+  content: '\e927';
+}
+.icon-locked:before {
+  content: '\e928';
+}
+.icon-moon:before {
+  content: '\e93e';
+}
+.icon-more-circle:before {
+  content: '\e93f';
+}
+.icon-notification:before {
+  content: '\e940';
+}
+.icon-search:before {
+  content: '\e944';
+}
+.icon-send:before {
+  content: '\e945';
+}
+.icon-settings:before {
+  content: '\e946';
+}
+.icon-swap:before {
+  content: '\e947';
+}
+.icon-arrow-right:before {
+  content: '\e948';
+}
+.icon-trash:before {
+  content: '\e94a';
+}
+.icon-united-states .path1:before {
+  content: '\e94b';
+  color: rgb(240, 240, 240);
+}
+.icon-united-states .path2:before {
+  content: '\e94c';
+  margin-left: -1em;
+  color: rgb(216, 0, 39);
+}
+.icon-united-states .path3:before {
+  content: '\e94d';
+  margin-left: -1em;
+  color: rgb(216, 0, 39);
+}
+.icon-united-states .path4:before {
+  content: '\e94e';
+  margin-left: -1em;
+  color: rgb(216, 0, 39);
+}
+.icon-united-states .path5:before {
+  content: '\e94f';
+  margin-left: -1em;
+  color: rgb(216, 0, 39);
+}
+.icon-united-states .path6:before {
+  content: '\e950';
+  margin-left: -1em;
+  color: rgb(0, 82, 180);
+}
+.icon-checkmark-circle:before {
+  content: '\e919';
+}
+.icon-checkmark:before {
+  content: '\e91b';
+  color: #363853;
+}
+.icon-vector-stroke:before {
+  content: '\e91c';
+  color: #363853;
+}
+.icon-arrow-right-circle:before {
+  content: '\e943';
+}
+.icon-arrow-left-circle:before {
+  content: '\e949';
+}
+.icon-info-circle:before {
+  content: '\e951';
+  color: #fff;
+}
+.icon-timer:before {
+  content: '\e929';
+}
+.icon-Fill-2:before {
+  content: '\e911';
+}
+.icon-group:before {
+  content: '\e92b';
+  color: #ff7f5c;
+}

@@ -1,0 +1,41 @@
+.cardContainer {
+  min-width: 140px;
+  width: calc((100% - 300px) / 5);
+  background: #fbfdfd;
+  box-shadow: 0px 7px 11px rgba(35, 109, 79, 0.12);
+  border-radius: 16px;
+  height: 177px;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 22px;
+  flex-direction: column;
+  align-items: center;
+}
+.activeCardContainer {
+  background: linear-gradient(317.83deg, #01e285 -13.04%, #09cead 127.04%);
+}
+
+.iconContainer {
+  background: #ffffff;
+  box-shadow: 1px 2px 3px rgba(0, 145, 201, 0.16);
+  border-radius: 2px;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+
+.overviewComponent {
+  background: #fbfdfd;
+  min-height: 316px;
+  box-shadow: 0px 7px 11px rgba(35, 109, 79, 0.12);
+  border-radius: 16px;
+}
+
+.button {
+  background: linear-gradient(
+    317.83deg,
+    #01e285 -13.04%,
+    #09cead 127.04%
+  ) !important;
+  border-radius: 5px;
+}

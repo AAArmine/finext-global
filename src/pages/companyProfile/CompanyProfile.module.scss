@@ -1,0 +1,35 @@
+.contentContainer {
+  margin: 20px 56px 0 18px;
+  padding: 42px 60px;
+  background: #fffffe;
+  box-shadow: 0px 6px 12px rgba(142, 150, 240, 0.06);
+  border-radius: 16px;
+  position: relative;
+  .tabContainer {
+    overflow-x: scroll;
+    white-space: nowrap;
+    .tabListContainer {
+      position: relative;
+      padding-right: 30px;
+    }
+    .tabPanel {
+      position: absolute;
+      left: 50px;
+      width: 100%;
+      .dataItemCont {
+        width: calc(100% - 100px);
+        top: -50px;
+      }
+    }
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  :global {
+    .react-tabs__tab-list {
+      border-bottom: none !important;
+      position: relative;
+      top: -50px;
+    }
+  }
+}

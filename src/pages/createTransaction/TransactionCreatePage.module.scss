@@ -1,0 +1,38 @@
+.availableBalanceCont {
+  background: #ffffff;
+  box-shadow: 0px 7px 11px rgba(35, 109, 79, 0.12);
+  border-radius: 20px;
+  margin-top: 2rem;
+  height: 107px;
+  min-width: 100%;
+  align-items: center;
+  overflow: hidden;
+  // overflow-x: scroll;
+  scroll-behavior: smooth;
+  overscroll-behavior: contain;
+  padding: 0 100px;
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.26);
+  }
+  &::-webkit-scrollbar-track {
+    margin: 0 0.7rem;
+  }
+}
+
+.deleteButton {
+  width: 36px;
+  height: 36px;
+  border: 0.5px solid #dedfeb;
+  box-shadow: 1px 2px 3px rgba(0, 145, 201, 0.16);
+  border-radius: 4px;
+  margin-left: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

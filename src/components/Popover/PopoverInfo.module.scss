@@ -1,0 +1,29 @@
+:global {
+  .popover_overlay_for_table {
+    &.ant-popover {
+      background: #f7f7ff;
+      padding-top: 0;
+      width: 60%;
+      height: 70px;
+      .ant-popover-content {
+        height: 100%;
+        .ant-popover-inner {
+          box-shadow: 1px 3px 11px rgba(53, 54, 54, 0.329);
+          border-radius: 8px;
+          height: 100%;
+          background: transparent;
+          transition: box-shadow ease 1s;
+          &:hover {
+            box-shadow: none;
+          }
+          .ant-popover-inner-content {
+            height: 100%;
+          }
+        }
+      }
+      .ant-popover-arrow {
+        display: none;
+      }
+    }
+  }
+}

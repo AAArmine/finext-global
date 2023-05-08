@@ -1,0 +1,25 @@
+.container {
+  width: 296px;
+  display: flex;
+  flex-direction: column;
+  & > label {
+    font-weight: 700;
+    font-size: 14px;
+  }
+  & > input {
+    height: 36px;
+    padding: 0 12px;
+    border: 1px solid #c6c4d4;
+    border-radius: 4px;
+    &:focus-visible {
+      outline: none;
+    }
+    &::placeholder {
+      color: #c6c4d4;
+      font-size: 14px;
+    }
+    &:disabled {
+      background: #e0f5ef;
+    }
+  }
+}
